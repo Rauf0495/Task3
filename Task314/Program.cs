@@ -16,7 +16,7 @@ namespace Task314
             l1:
             Console.WriteLine("Please enter first six digit number:");
 
-            bool check1 = int.TryParse(Console.ReadLine(), out int firstSixDigitNumber);//123456
+            bool check1 = int.TryParse(Console.ReadLine(), out int firstSixDigitNumber);
 
             if (!(firstSixDigitNumber >= 100000 && firstSixDigitNumber <= 999999))
             {
@@ -48,7 +48,7 @@ namespace Task314
             l4:
             Console.WriteLine("Please enter seven digit number:");
 
-            bool check4 = int.TryParse(Console.ReadLine(), out int sevenDigitNumber);//1234567
+            bool check4 = int.TryParse(Console.ReadLine(), out int sevenDigitNumber);
 
             if (!(sevenDigitNumber >= 1000000 && sevenDigitNumber <= 9999999))
             {
